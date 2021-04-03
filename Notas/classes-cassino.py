@@ -57,3 +57,4 @@ Resumindo:
 2. Classes: encapsular e nomear partes relacionadas de funcionalidades
 3. Modulos: encapsular classes que possuem relação
 """
+

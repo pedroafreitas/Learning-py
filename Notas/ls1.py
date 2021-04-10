@@ -1,9 +1,4 @@
-"""Conceitos básico da linguagem Python"""
-
-
-
-
-
+"""Conceitos básico da linguagem Python""
 
 
 

@@ -47,10 +47,8 @@ print("\nAccuracy = {1:.3f} \nMSE = {0:.3f}".format(
 validation_data = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
 estimation = [1.0, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0.0]
 
-print("\MSE = {1:.3f} \nRMSE = {0:.3f}".format(
+print("\n\nMSE = {0:.3f} \nRMSE = {1:.3f} \nMAE = {2:.3f}".format(
    mse(validation_data, estimation),
    rmse(validation_data, estimation),
    mae(validation_data, estimation)))
 
-mae = mae(estimation, predicted)
-print(mae)

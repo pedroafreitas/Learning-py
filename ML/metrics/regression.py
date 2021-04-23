@@ -22,7 +22,7 @@ def mse(actual, predicted):
       error_i = predicted[i] - actual[i]
       sum_error += (error_i ** 2)
    mean_error = sum_error / float(len(actual))
-   return math.sqrt(mean_error)
+   return mean_error
 
 def rmse_simple(actual, predicted):
    return math.sqrt(mse(actual, predicted))
